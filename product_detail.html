@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="images">
+    <link rel="stylesheet" href="svg">
+    <title>Univa</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar navbar-expand-lg su_navbar_color">
+      <div class=" d-flex justify-content-between su_top_navbar" id="">
+        <div class="su_logo_img width-25">
+          <img class="img-fluid" src="images/logo.png" alt="">
+        </div>
+        <div class="width-50 ">
+          <form class="form-inline my-2 my-lg-0 d-flex su_search_form">
+            <div class="su_search_set">
+              <input class="form-control mr-sm-2 su_Search_navbar" type="search" placeholder="Search Part Number"
+                aria-label="Search"><i class="fa-solid fa-magnifying-glass su_search_icon_set"></i>
+            </div>
+          </form>
+        </div>
+        <div class="width-25 text-right">
+          <a href=""><img src="svg/older_list.svg" alt=""></a><span class="badge badge-danger su_badge">2</span>
+        
+          <button class="su_Login_btn text-white "><a href="">Login</a></button>
+          <button class="su_Register_btn text-white ml-2"><a href="">Register</a></button>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <div class="su_logo_img2">
+          <img class="img-fluid" src="images/logo.png" alt="">
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars su_bar_color"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <div class="dropdown navbar_line2">
+              <button class="btn dropdown-toggle su_navbar_dropdown" type="button" id="dropdownMenu2"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="">Products</a>
+                <i class="fas fa-angle-down"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Products 1</button>
+                <button class="dropdown-item" type="button">Products 2</button>
+                <button class="dropdown-item" type="button">Products 3</button>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <div class="dropdown navbar_line2">
+              <button class="btn dropdown-toggle su_navbar_dropdown" type="button" id="dropdownMenu2"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="">Services</a>
+                <i class="fas fa-angle-down"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Services 1</button>
+                <button class="dropdown-item" type="button">Services 2</button>
+                <button class="dropdown-item" type="button">Services 3</button>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown navbar_line2">
+              <button class="btn dropdown-toggle su_navbar_dropdown" type="button" id="dropdownMenu2"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="">Line Card</a>
+                <i class="fas fa-angle-down"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Line Card 1</button>
+                <button class="dropdown-item" type="button">Line Card 2</button>
+                <button class="dropdown-item" type="button">Line Card 3</button>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item navbar_line">
+            <a href="">Application</a>
+          </li>
+          <li class="nav-item navbar_line">
+            <a href="">Marketing Partner India</a>
+          </li>
+          <li class="nav-item navbar_line">
+            <a href="">About Us</a>
+          </li>
+          <li class="nav-item navbar_line">
+            <a href="">Contact Us</a>
+          </li>
+          <button class="su_BOM_Tool" data-toggle="modal" data-target="#exampleModal">
+            <img src="svg/Union (8).svg" alt="">
+            <a href="">BOM Tool</a>
+          </button>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+    <section>
+       <div class="su_product_green_section">
+        <div class="su_product_detail d-flex my-2">
+            <img src="svg/left.svg" alt="">
+            <p>Back to search results</p>
+        </div>
+        <div class="row su_bg_green">
+            <div class="col-lg-5 col-md-12 col-12">
+                <div class="d-lg-flex d-md-flex d-block">
+                    <div class="su_project_lg_img">
+                        <img class="img-fluid" src="images/Frame 5.png" alt="">
+                    </div>
+                    <div class="su_product_detail_mobile ml-3">
+                        <p>LM324 D56 A1</p>
+                        <p class="name_product">JB Electronics Corporation</p>
+                        <div class="su_para_color">Description:</div>
+                        <p>2 Func, 2 Driver, 2 Rcvr, BICMOS, PDSO16</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-12">
+                <div class="d-lg-flex d-md-flex d-block justify-content-between">
+                    <div class="su_product_detail_mobile">
+                       <button class="su_Available">1250 in stock</button>
+                       <p>As of <b>July 12, 2022</b></p>
+                       <p class="su_para_color">Last Sold</p>
+                       <p>450 Units in Jul, 2022</p>
+                    </div>
+                    <div class="su_margin_product_up_down">
+                        <p class="su_para_color">Last Sold</p>
+                        <div class="d-flex justify-content-between">
+                            <div><p><img src="svg/green.svg" alt=""> $0.18207</p></div>
+                            <div class="ml-5"><p><img src="svg/red.svg" alt=""> $0.19400</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-12 col-12 text-md-right text-center">
+                <button class="su_Data_Sheet_table"> <img src="svg/data_sheet.svg" alt=""> Data Sheet</button>
+                <button class="su_Advanced_Search_table">View More Details <img src="svg/down.svg" alt=""></button>
+            </div>
+        </div>
+       </div>
+
+        <div class="su_table_heading_main">
+            <div><h3 class="su_table_heading">4 Suppliers Found <span class="su_table_heading_green">2 Selected</span></h3></div>
+            <div>
+                
+                  <select class="su_table_selector" id="" name="" form="">
+                    <option value=" Sellers">All Supplier Type</option>
+                    <option value=" Sellers">All Supplier Type</option>
+                    <option value=" Sellers">All Supplier Type</option>
+                    <option value=" Sellers">All Supplier Type</option>
+                  </select>
+
+                  <button class="su_Advanced_Search">Send RFQ</button>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table su_set_table">
+                <thead>
+                    <tr>
+                      <th>Part Number and Details</th>
+                      <th>Description</th>
+                      <th>Supplier/Supplier Type</th>
+                      <th>Pricing/Stock/Leadtime</th>
+                      <th>Rohs</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                     <td>
+                        <div class="d-flex">
+                            <label class="hello detail-table-width-160">LM324 D56 A1
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+                        </div>
+                        <ul class="su_product_ul">
+                            <li>132</li>
+                            <li>13</li>
+                            <li>53</li>
+                        </ul>
+                     </td>
+                     <td> <p class="detail-table-width-160">2 Func, 2 Driver, 2 Rcvr, BICMOS, PDSO16</p></td>
+                     <td>  <p>Third Party Qualified</p></td>
+                     <td>
+                        <button class="su_Not_Available">Not Available</button>
+                        <div class="su_para_color">Next Available in <span class="text-dark">8 Weeks</span></div>
+                        <div class="su_Send_RFQ">Send RFQ</div>
+                     </td>
+                     <td>
+                        <p><b>Yes</b></p>
+                     </td>
+                     <td>
+                        <div class="d-flex justify-content-between su_table_last_text detail-table-width-320">
+                            <div> <button class="su_Advanced_Search">Send RFQ</button></div>
+                            <div> <button class="su_Add_to_Cart">Add to Cart</button></div>
+                         </div>
+                         <div class="d-flex justify-content-between my-3 su_table_last_text detail-table-width-320">
+                            <div><img src="svg/trend.svg" alt=""> Price Trend </div>
+                            <div><img src="svg/heart_right.svg" alt=""> Compliance Details  <img src="svg/greater_then.svg" alt=""> </div>
+                         </div>
+                     </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                           <div class="d-flex">
+                            <label class="hello detail-table-width-160">LM324 D56 A1
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+                           </div>
+                           <ul class="su_product_ul">
+                               <li>132</li>
+                               <li>13</li>
+                               <li>53</li>
+                           </ul>
+                        </td>
+                        <td> <p class="detail-table-width-160">2 Func, 2 Driver, 2 Rcvr, BICMOS, PDSO16</p></td>
+                        <td>  <p>Third Party Qualified</p></td>
+                        <td class="su_table_set_para">
+                           <button class="su_Available">450 in stock</button>
+                           <p class="su_green"><b>$2.8</b></p>
+                           <p>$2.8 (First 1000 Units)</p>
+                           <p>$1.6 (1000 - 2000 Units)</p>
+                        </td>
+                        <td>
+                           <p><b>Yes</b></p>
+                        </td>
+                        <td>
+                           <div class="d-flex justify-content-between su_table_last_text detail-table-width-320">
+                               <div> <button class="su_Advanced_Search">Send RFQ</button></div>
+                               <div> <button class="su_Add_to_Cart">Add to Cart</button></div>
+                            </div>
+                            <div class="d-flex justify-content-between my-3 su_table_last_text detail-table-width-320">
+                               <div><img src="svg/trend.svg" alt="">  Price Trend </div>
+                               <div><img src="svg/heart_right.svg" alt="">  Compliance Details  <img src="svg/greater_then.svg" alt=""> </div>
+                            </div>
+                        </td>
+                       </tr>
+
+                       <tr>
+                        <td>
+                           <div class="d-flex">
+                            <label class="hello detail-table-width-160">LM324 D56 A1
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+                           </div>
+                           <ul class="su_product_ul">
+                               <li>132</li>
+                               <li>13</li>
+                               <li>53</li>
+                           </ul>
+                        </td>
+                        <td> <p class="detail-table-width-160">2 Func, 2 Driver, 2 Rcvr, BICMOS, PDSO16</p></td>
+                        <td>  <p>Third Party Qualified</p></td>
+                        <td class="su_table_set_para">
+                           <button class="su_Available">450 in stock</button>
+                           <p class="su_green"><b>$2.8</b></p>
+                           <p>$2.8 (First 1000 Units)</p>
+                           <p>$1.6 (1000 - 2000 Units)</p>
+                        </td>
+                        <td>
+                           <p><b>Yes</b></p>
+                        </td>
+                        <td>
+                           <div class="d-flex justify-content-between su_table_last_text detail-table-width-320">
+                               <div> <button class="su_Advanced_Search">Send RFQ</button></div>
+                               <div>   <input class="su_input_quantity" placeholder="0" type="number" id="quantity" name="quantity" min="1" max="100"></div>
+                            </div>
+                            <div class="d-flex justify-content-between my-3 su_table_last_text detail-table-width-320">
+                               <div><img src="svg/trend.svg" alt="">  Price Trend </div>
+                               <div><img src="svg/heart_right.svg" alt="">  Compliance Details  <img src="svg/greater_then.svg" alt=""> </div>
+                            </div>
+                        </td>
+                       </tr>
+                 
+                       <tr>
+                        <td>
+                           <div class="d-flex">
+                               <label class="hello detail-table-width-160">LM324 D56 A1
+                                   <input type="checkbox" checked="checked">
+                                   <span class="checkmark"></span>
+                                 </label>
+                           </div>
+                           <ul class="su_product_ul">
+                               <li>132</li>
+                               <li>13</li>
+                               <li>53</li>
+                           </ul>
+                        </td>
+                        <td> <p class="detail-table-width-160">2 Func, 2 Driver, 2 Rcvr, BICMOS, PDSO16</p></td>
+                        <td>  <p>Third Party Qualified</p></td>
+                        <td>
+                           <button class="su_Not_Available">Not Available</button>
+                           <div class="su_para_color">Next Available in <span class="text-dark">8 Weeks</span></div>
+                           <div class="su_Send_RFQ">Send RFQ</div>
+                        </td>
+                        <td>
+                           <p><b>Yes</b></p>
+                        </td>
+                        <td>
+                           <div class="d-flex justify-content-between su_table_last_text detail-table-width-320">
+                               <div> <button class="su_Advanced_Search">Send RFQ</button></div>
+                               <div> <button class="su_Add_to_Cart">Add to Cart</button></div>
+                            </div>
+                            <div class="d-flex justify-content-between my-3 su_table_last_text detail-table-width-320">
+                               <div><img src="svg/trend.svg" alt=""> Price Trend </div>
+                               <div><img src="svg/heart_right.svg" alt=""> Compliance Details  <img src="svg/greater_then.svg" alt=""> </div>
+                            </div>
+                        </td>
+                       </tr>
+
+                  </tbody>
+            </table>
+          </div>
+    </section>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>
