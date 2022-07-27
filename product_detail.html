@@ -148,15 +148,25 @@
                     <div class="su_margin_product_up_down">
                         <p class="su_para_color">Last Sold</p>
                         <div class="d-flex justify-content-between">
-                            <div><p><img src="svg/green.svg" alt=""> $0.18207</p></div>
-                            <div class="ml-5"><p><img src="svg/red.svg" alt=""> $0.19400</p></div>
+                            <div><p><img class="mr-2" src="svg/green.svg" alt=""> $0.18207</p></div>
+                            <div class="ml-5"><p><img class="mr-2" src="svg/red.svg" alt=""> $0.19400</p></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-12 col-12 text-md-right text-center">
                 <button class="su_Data_Sheet_table"> <img src="svg/data_sheet.svg" alt=""> Data Sheet</button>
-                <button class="su_Advanced_Search_table">View More Details <img src="svg/down.svg" alt=""></button>
+                <!-- <button class="su_Advanced_Search_table">View More Details <img src="svg/down.svg" alt=""></button> -->
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle su_Advanced_Search_table" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    View More Details
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
             </div>
         </div>
        </div>
@@ -172,7 +182,7 @@
                     <option value=" Sellers">All Supplier Type</option>
                   </select>
 
-                  <button class="su_Advanced_Search">Send RFQ</button>
+                  <button class="su_Advanced_Search"><a href="">Send RFQ</a></button>
             </div>
         </div>
 
@@ -180,17 +190,17 @@
             <table class="table su_set_table">
                 <thead>
                     <tr>
-                      <th>Part Number and Details</th>
+                      <th class="su_table_padding_left">Part Number and Details</th>
                       <th>Description</th>
                       <th>Supplier/Supplier Type</th>
                       <th>Pricing/Stock/Leadtime</th>
                       <th>Rohs</th>
-                      <th>Action</th>
+                      <th class="su_table_padding_right">Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                     <td>
+                     <td class="su_table_padding_left">
                         <div class="d-flex">
                             <label class="hello detail-table-width-160">LM324 D56 A1
                                 <input type="checkbox" checked="checked">
@@ -213,10 +223,10 @@
                      <td>
                         <p><b>Yes</b></p>
                      </td>
-                     <td>
+                     <td class="su_table_padding_right">
                         <div class="d-flex justify-content-between su_table_last_text detail-table-width-320">
-                            <div> <button class="su_Advanced_Search">Send RFQ</button></div>
-                            <div> <button class="su_Add_to_Cart">Add to Cart</button></div>
+                            <button class="su_Advanced_Search">Send RFQ</button>
+                             <button class="su_Add_to_Cart">Add to Cart</button>
                          </div>
                          <div class="d-flex justify-content-between my-3 su_table_last_text detail-table-width-320">
                             <div><img src="svg/trend.svg" alt=""> Price Trend </div>
@@ -226,7 +236,7 @@
                     </tr>
 
                     <tr>
-                        <td>
+                        <td class="su_table_padding_left">
                            <div class="d-flex">
                             <label class="hello detail-table-width-160">LM324 D56 A1
                                 <input type="checkbox" checked="checked">
@@ -250,10 +260,10 @@
                         <td>
                            <p><b>Yes</b></p>
                         </td>
-                        <td>
+                        <td class="su_table_padding_right">
                            <div class="d-flex justify-content-between su_table_last_text detail-table-width-320">
-                               <div> <button class="su_Advanced_Search">Send RFQ</button></div>
-                               <div> <button class="su_Add_to_Cart">Add to Cart</button></div>
+                               <button class="su_Advanced_Search">Send RFQ</button>
+                                <button class="su_Add_to_Cart">Add to Cart</button>
                             </div>
                             <div class="d-flex justify-content-between my-3 su_table_last_text detail-table-width-320">
                                <div><img src="svg/trend.svg" alt="">  Price Trend </div>
@@ -263,7 +273,7 @@
                        </tr>
 
                        <tr>
-                        <td>
+                        <td class="su_table_padding_left">
                            <div class="d-flex">
                             <label class="hello detail-table-width-160">LM324 D56 A1
                                 <input type="checkbox" checked="checked">
@@ -287,10 +297,10 @@
                         <td>
                            <p><b>Yes</b></p>
                         </td>
-                        <td>
+                        <td  class="su_table_padding_right">
                            <div class="d-flex justify-content-between su_table_last_text detail-table-width-320">
-                               <div> <button class="su_Advanced_Search">Send RFQ</button></div>
-                               <div>   <input class="su_input_quantity" placeholder="0" type="number" id="quantity" name="quantity" min="1" max="100"></div>
+                               <button class="su_Advanced_Search">Send RFQ</button>
+                               <input class="su_input_quantity" placeholder="0" type="number" id="quantity" name="quantity" min="1" max="100">
                             </div>
                             <div class="d-flex justify-content-between my-3 su_table_last_text detail-table-width-320">
                                <div><img src="svg/trend.svg" alt="">  Price Trend </div>
@@ -300,7 +310,7 @@
                        </tr>
                  
                        <tr>
-                        <td>
+                        <td class="su_table_padding_left">
                            <div class="d-flex">
                                <label class="hello detail-table-width-160">LM324 D56 A1
                                    <input type="checkbox" checked="checked">
@@ -323,10 +333,10 @@
                         <td>
                            <p><b>Yes</b></p>
                         </td>
-                        <td>
+                        <td class="su_table_padding_right">
                            <div class="d-flex justify-content-between su_table_last_text detail-table-width-320">
-                               <div> <button class="su_Advanced_Search">Send RFQ</button></div>
-                               <div> <button class="su_Add_to_Cart">Add to Cart</button></div>
+                               <button class="su_Advanced_Search">Send RFQ</button>
+                               <button class="su_Add_to_Cart">Add to Cart</button>
                             </div>
                             <div class="d-flex justify-content-between my-3 su_table_last_text detail-table-width-320">
                                <div><img src="svg/trend.svg" alt=""> Price Trend </div>

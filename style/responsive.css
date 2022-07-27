@@ -1,13 +1,13 @@
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 1280px){
   .width-table-300{
     width: 340px;
   }
+  .su_input_quantity {
+    padding: 0px 16px;
+}
 }
 
 @media screen and (max-width: 1200px) {
-.su_table_heading_main{
-  display: block;
-}
 .su_Advanced_Search{
   padding: 4px 8px;
   font-weight: 700;
@@ -87,15 +87,13 @@
 .su_navbar_color{
   display: none;
 }
-.su_Advanced_Search{
-  margin: 10px 5px;
-}
 
 }
 
 @media screen and (max-width: 768px) {
   .su_table_heading_main {
     padding: 15px 30px;
+    display: block;
 }
 .su_bg_green {
   padding: 20px 0px;

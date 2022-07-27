@@ -209,7 +209,7 @@ button:focus {
 
 /* ------------------------------main_section start------------------- */
 
-.su_input_quantity,.su_table_selector,.su_Advanced_Search,.su_Add_to_Cart,.su_Not_Available,.su_Data_Sheet_table,.su_Available,.su_input_quantity:focus {
+.su_input_quantity,.su_table_selector,.su_Advanced_Search,.su_Advanced_Search2,.su_Add_to_Cart,.su_Not_Available,.su_Data_Sheet_table,.su_Available,.su_input_quantity:focus {
     outline: none !important;
     outline: none !important;
 }
@@ -346,11 +346,34 @@ button:focus {
 
 
 /* ------------------------------table list start---------------------*/
+.my_select_cls{
+    padding: 2px 16px;
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.su_manufacturers_badge{
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 15px;
+}
 .su_redirect_to_product_detail a{
     text-decoration: none;
     color: #121F1E;
 }
+.su_Data_Sheet2 {
+    border: none;
+    background: transparent;
+}
+.su_Data_Sheet2 a{
+    text-decoration: none;
+    color: #121F1E;
+}
 .su_Advanced_Search a{
+    text-decoration: none;
+    color: #121F1E;
+}
+.su_Advanced_Search2 a{
     text-decoration: none;
     color: #121F1E;
 }
@@ -413,6 +436,17 @@ button:focus {
 }
 
 .su_Advanced_Search {
+    padding: 8px 16px;
+    background: #E3F3F2;
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #005B54;
+}
+
+.su_Advanced_Search2 {
     padding: 8px 16px;
     background: #E3F3F2;
     border-radius: 4px;
@@ -574,9 +608,23 @@ line-height: 24px;
 color: #3E8680;
 border: none;
 }
-/* .su_margin_product_up_down{
-    margin-top: 13%;
-} */
+.su_Advanced_Search_table:hover{
+    background: #FFFFFF;
+    color: #3E8680;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.su_product_ul{
+    margin-top: 8px;
+}
+.su_table_padding_left{
+    padding-left: 50px !important;
+}
+.su_table_padding_right{
+    padding-right: 50px !important;
+}
 /* ------------------------------table list end---------------------*/
 .hello {
     display: block;
@@ -601,8 +649,8 @@ border: none;
     position: absolute;
     top: 0;
     left: 0;
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
     border: solid #c1c1c1 1px;
   }
   
